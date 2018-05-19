@@ -1,0 +1,12 @@
+//Vellum Freeze v2
+//MSEA v176.1
+define(CMob_ShowAffectedSkill,0157C100)
+
+[enable]
+CMob_ShowAffectedSkill:
+ret 0004
+
+
+[disable]
+CMob_ShowAffectedSkill:
+db 55 8B EC

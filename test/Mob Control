@@ -16,7 +16,7 @@ alloc(MobControl,128)
 MobControl:
 mov [edi+000004C0],action
 mov eax,[edi+000004C0]
-jmp 0254709F+6
+jmp 0254709A+6
 
 0254709A:
 jmp MobControl

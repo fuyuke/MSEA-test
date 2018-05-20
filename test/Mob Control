@@ -1,4 +1,5 @@
-// Mob control 176.1
+//Mob Control
+//MSEA v176.1
 
 // 01 Normal Mobs
 // 02 Jump mob
@@ -23,7 +24,7 @@ jmp MobControl
 db 90
 
 [DISABLE]
-0254709F: // CVecCtrlMob::WorkUpdateActive: E9 ? ? ? ? 8B ? ? ? 00 00 83 ? ? 0F ? ? ? ? ? FF [Address below]
+0254709A: 
 mov eax,[edi+000004C0]
 
 dealloc(MobControl)

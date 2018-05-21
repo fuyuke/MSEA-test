@@ -1,0 +1,15 @@
+//Full Map Attack
+//MSEA v176.1
+[ENABLE]
+015C94B4:
+db EB
+
+02736766:
+db EB
+
+[DISABLE]
+015C94B4:
+db 75
+
+02736766:
+db 74

@@ -1,0 +1,12 @@
+//No Mob Reaction
+//MSEA 176.2
+//No Mob Reaction
+define(Address,01555317) //A1 E4 DF 1A 03
+[Enable]
+Address:
+ret 0074
+
+[Disable]
+Address:
+push ebp
+mov ebp,esp
